@@ -133,4 +133,29 @@ line-height: 0;
 border: 0;
 }
 
+#timerContainer{
+  background-color:#dadbdd;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  font-weight: 0;
+  font-style: normal;
+  font: 600 70px/1 "Poppins", sans-serif;
+  padding-bottom: 70px;
+  color: #FF3C00;
+}
+
+#sh6 {
+  font-weight: 0;
+  font-style: normal;
+  font: 600 40px/1 "Poppins", sans-serif;
+  color: #FF3C00;
+}
+
+
 
