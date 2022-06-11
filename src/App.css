@@ -5,8 +5,7 @@
 }
 
 .App-header {
-  background-color: #dadbdd;
-  min-height: 100vh;
+  background-color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -15,8 +14,65 @@
   font-family: "Poppins", sans-serif;
 }
 
+.App-body {
+  background-color:#dadbdd;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 0 auto;
+}
+
+#contBan {
+  margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+
+#subTitle {
+  padding-bottom: 50px;
+  color: #374048;
+  letter-spacing: -3px;
+  padding-top: 80px;
+  font: 600 49px/1px "Poppins", sans-serif;
+  margin: 0 0 25px;
+  font-style: normal;
+}
+
+#sh2{
+  font-size: 48px;
+  font-weight: 0;
+  font-style: normal;
+  font: 600 56px/1 "Poppins", sans-serif;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 767px){
+#sh2, #subTitle {
+    margin: 0;
+    font: 600 36px/1 "Poppins", sans-serif;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1097px;
+}
+}
 .navbar-brand {
   padding: 0;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #navbar {
@@ -37,6 +93,16 @@
     border: none;
 }
 
+#btnONW2 {
+   text-transform: uppercase;
+   padding: 0 85px;
+   margin-top: 40px;
+   border-radius: 60px;
+   font: 500 27px/72px "Poppins", sans-serif;
+    color: #fff;
+    border: none;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -50,7 +116,6 @@
 
 }
 
-
 #btn1, #btn2, #btn3 {
   /*color: #91989f;*/
   padding: 0 17px;
@@ -61,8 +126,6 @@
 
 .logo {
   max-width: 70%;
-  min-width: 20%;
-  margin-left: 30px;
 }
 
 #toggle {
