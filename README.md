@@ -7,3 +7,4 @@ You must previously allow access to your geolocation in your browser.
 
 Pressing the "send to" button sends a request to the API, in consideration of the browser's warning to obtain the user's location and address.
 
+https://github.com/Jaz0King/QuadairDrone
