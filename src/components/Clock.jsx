@@ -35,7 +35,7 @@ const Clock = () => {
     }
 
     const clearTimer = (e) => { 
-        setTimer('14:59');
+        setTimer('15:00');
         if (ref.current) clearInterval(ref.current);
         const id = setInterval(() => {
             startTimer(e);

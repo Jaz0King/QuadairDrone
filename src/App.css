@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -30,26 +30,34 @@
     padding-right: 15px;
 } 
 
-#subTitle {
+#subTitle, #subTitle2 {
   padding-bottom: 50px;
-  color: #374048;
-  letter-spacing: -3px;
   padding-top: 80px;
-  font: 600 49px/1px "Poppins", sans-serif;
   margin: 0 0 25px;
-  font-style: normal;
-}
+  font-style: normal;}
 
-#sh2{
+#sh2 {
+  letter-spacing: -3px;
+  color: #374048;
   font-size: 48px;
   font-weight: 0;
   font-style: normal;
   font: 600 56px/1 "Poppins", sans-serif;
   padding-bottom: 70px;
 }
+#sh4 {
+  letter-spacing: -3px;
+  color: #374048;
+  font-size: 40px;
+  font-weight: 0;
+  font-style: normal;
+  font: 600 56px/1 "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+
 
 @media (max-width: 767px){
-#sh2, #subTitle {
+#sh2, #sh4 #subTitle, #subTitle2{
     margin: 0;
     font: 600 36px/1 "Poppins", sans-serif;
     padding-bottom: 30px;
@@ -94,14 +102,31 @@
 }
 
 #btnONW2 {
-   text-transform: uppercase;
+  font-weight: 0;
+  font-style: normal;
    padding: 0 85px;
    margin-top: 40px;
    border-radius: 60px;
    font: 500 27px/72px "Poppins", sans-serif;
-    color: #fff;
-    border: none;
+   color: #fff;
+   border: none;
 }
+
+@media (max-width: 991px) {
+  #btnONW2 {
+    padding: 0 70px;
+    font-size: 18px;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  #btnONW2 {
+    padding: 0 65px;
+  }
+}
+ 
 
 .container {
   margin-right: auto;
@@ -135,7 +160,7 @@ border: 0;
 
 #timerContainer{
   background-color:#dadbdd;
-  height: 45vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,6 +172,8 @@ border: 0;
   font-style: normal;
   font: 600 70px/1 "Poppins", sans-serif;
   padding-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   color: #FF3C00;
 }
 
@@ -157,5 +184,35 @@ border: 0;
   color: #FF3C00;
 }
 
+#mapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
 
+#locationContainer{
+  background-color:#f8fbfd;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
 
+#droneImg {
+max-width: 100%;
+}
+
+@media (min-width: 100px){
+ #droneImg {
+  width: 600px
+ }
+}
+
+#map {
+  max-width: 100%;
+}
+
+@media (min-width: 100px){
+  #map {
+   width: 600px
+  }
+ }
