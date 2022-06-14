@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QuadairDrone/static/css/main.4dcbe65b.css",
+    "main.js": "/QuadairDrone/static/js/main.4c573303.js",
+    "static/js/787.604644e2.chunk.js": "/QuadairDrone/static/js/787.604644e2.chunk.js",
+    "index.html": "/QuadairDrone/index.html",
+    "main.4dcbe65b.css.map": "/QuadairDrone/static/css/main.4dcbe65b.css.map",
+    "main.4c573303.js.map": "/QuadairDrone/static/js/main.4c573303.js.map",
+    "787.604644e2.chunk.js.map": "/QuadairDrone/static/js/787.604644e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dcbe65b.css",
+    "static/js/main.4c573303.js"
+  ]
+}
