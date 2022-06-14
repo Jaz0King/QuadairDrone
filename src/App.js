@@ -4,6 +4,7 @@ import MenuAppBar from './components/MenuAppBar.jsx';
 import Banner from './components/Banner.jsx';
 import Clock from './components/Clock.jsx';
 import Location from './components/Location.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <img id="droneImg" src="https://d1e70rtlfmc4ez.cloudfront.net/drne/Playbutton_Img.png" alt="drone" />
         </div>
       </body>
+      <Footer />
     </div>
   );
 }
