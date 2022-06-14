@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import MenuAppBar from './components/MenuAppBar.jsx';
+import Banner from './components/Banner.jsx';
+import Clock from './components/Clock.jsx';
+import Location from './components/Location.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <MenuAppBar />
       </header>
+      <body className="App-body">
+        <Banner />
+        <Clock />
+        <Location />
+        <div >
+        <img id="droneImg" src="https://d1e70rtlfmc4ez.cloudfront.net/drne/Playbutton_Img.png" alt="drone" />
+        </div>
+      </body>
+      <Footer />
     </div>
   );
 }

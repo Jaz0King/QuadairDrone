@@ -1,38 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  background-color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  background-color:#dadbdd;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#contBan {
+  margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+
+#subTitle, #subTitle2 {
+  padding-bottom: 50px;
+  padding-top: 80px;
+  margin: 0 0 25px;
+  font-style: normal;}
+
+#sh2, #sh4  {
+  letter-spacing: -3px;
+  color: #374048;
+  font-weight: 0;
+  font-style: normal;
+  font: 600 56px/1 "Poppins", sans-serif;
+  padding-bottom: 50px;
+}
+
+ #sh6 {
+  letter-spacing: -3px;
+  color: #374048;
+  font-weight: 0;
+  font-style: normal;
+  font: 600 40px/1 "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+
+
+@media (max-width: 767px){
+#sh2, #sh4, #sh5, #sh6, #subTitle, #subTitle2{
+    margin: 0;
+    font: 600 36px/1 "Poppins", sans-serif;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1097px;
+}
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-nav{
+  align-items: flex-start;
+}
+
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#navbar {
+  min-height: 55px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  font: 400 16px/40px "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+#btnONW {
+    text-transform: uppercase;
+    font: 600 16px/40px "Poppins", sans-serif;
+    padding: 0 35px;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+}
+
+#btnONW2, #btnSearch {
+  font-weight: 0;
+  font-style: normal;
+   padding: 0 85px;
+   margin-top: 40px;
+   border-radius: 60px;
+   font: 500 27px/72px "Poppins", sans-serif;
+   color: #fff;
+   border: none;
+}
+
+@media (max-width: 991px) {
+  #btnONW2, #btnSearch {
+    padding: 0 70px;
+    font-size: 18px;
+    line-height: 60px;
+    margin-bottom: 15px;
   }
 }
+
+@media (max-width: 767px) {
+  #btnONW2 {
+    padding: 0 65px;
+  }
+}
+ 
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#brand {
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+#btn1, #btn2, #btn3 {
+  /*color: #91989f;*/
+  padding: 0 17px;
+  text-transform: uppercase;
+  font: 500 16px/40px "Poppins", sans-serif;
+  
+}
+
+.logo {
+  max-width: 70%;
+}
+
+#toggle {
+line-height: 0;
+border: 0;
+}
+
+#timerContainer{
+  background-color:#dadbdd;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  font-weight: 0;
+  font-style: normal;
+  font: 600 70px/1 "Poppins", sans-serif;
+  padding-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #FF3C00;
+}
+
+#sh7 {
+  font-weight: 0;
+  font-style: normal;
+  font: 600 40px/1 "Poppins", sans-serif;
+  color: #FF3C00;
+}
+#sh5 {
+  font-weight: 0;
+  font: 600 36px/1 "Poppins", sans-serif;
+  color: #FF3C00;
+}
+
+#mapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#locationContainer{
+  background-color:#f8fbfd;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#droneImg {
+max-width: 100%;
+}
+
+@media (min-width: 100px){
+ #droneImg {
+  width: 600px
+ }
+}
+
+#map {
+  max-width: 100%;
+}
+
+@media (min-width: 100px){
+  #map {
+   width: 600px
+  }
+ }
