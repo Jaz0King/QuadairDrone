@@ -1,9 +1,7 @@
 import React from "react";
-import { GoogleMap, useJsApiLoader, Marker} from '@react-google-maps/api';
-import RoomTwoToneIcon from '@mui/icons-material/RoomTwoTone';
+import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { Marker } from '@react-google-maps/api';
 import '../App.css';
-
-
 
 const containerStyle = {
   width: '800px',
@@ -44,12 +42,10 @@ const Maps = ({setLat, setLng}) => {
         zoom={18}
         onLoad={onLoad}
         onUnmount={onUnmount}
-      >
-    <Marker>         
-    <RoomTwoToneIcon center={center} />
-    </Marker> 
-      
+      > 
+      <Marker position={center} />
       </GoogleMap>
+    
      </div>
   ) : <></>
 }

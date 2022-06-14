@@ -45,7 +45,7 @@
   padding-bottom: 50px;
 }
 
-#sh5, #sh6 {
+ #sh6 {
   letter-spacing: -3px;
   color: #374048;
   font-weight: 0;
@@ -74,6 +74,11 @@
 .navbar-brand {
   padding: 0;
 }
+.navbar-nav{
+  align-items: flex-start;
+}
+
+
 
 .container {
   margin-right: auto;
@@ -159,7 +164,7 @@ border: 0;
 
 #timerContainer{
   background-color:#dadbdd;
-  height: 40vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,10 +181,15 @@ border: 0;
   color: #FF3C00;
 }
 
-#sh7, #sh5 {
+#sh7 {
   font-weight: 0;
   font-style: normal;
   font: 600 40px/1 "Poppins", sans-serif;
+  color: #FF3C00;
+}
+#sh5 {
+  font-weight: 0;
+  font: 600 36px/1 "Poppins", sans-serif;
   color: #FF3C00;
 }
 

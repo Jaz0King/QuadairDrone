@@ -57,8 +57,6 @@ const Location = () => {
     }
   );
   
-
-
    console.log(latitude)
   return (
     <div id="locationContainer">

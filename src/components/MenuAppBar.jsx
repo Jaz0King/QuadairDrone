@@ -37,7 +37,7 @@ const MenuAppBar = () => {
       <Nav.Item>
           <ColorButtons href="/home" id="btn1">QUADAIR DRONE</ColorButtons>
         </Nav.Item>
-      <Nav.Item>
+      <Nav.Item >
           <ColorButtons href="/features" id="btn2">FEATURES</ColorButtons>
         </Nav.Item>
         <Nav.Item>
