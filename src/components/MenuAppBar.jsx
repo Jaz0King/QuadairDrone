@@ -45,6 +45,7 @@ const MenuAppBar = () => {
         </Nav.Item>
         <ColorButton
         id="btnONW"
+        target="_blank"
         href="https://global.quadairdrone.com/#/en/checkout2?uid=136&oid=530&affid=1362&sub5=ts-3_of-130_net-15_ad-greycheckout0312_lt-hp_ci-13260110392_ai-125651620471_cr-523935550983_de-c_kw-quad%20air%20d*_geo-US&mvprm=sub5">      
         ORDER NOW
           </ColorButton>

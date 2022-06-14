@@ -6,7 +6,7 @@ import '../App.css';
 
 
 const containerStyle = {
-  width: '400px',
+  width: '800px',
   height: '400px'
 };
 
@@ -38,7 +38,7 @@ const Maps = ({setLat, setLng}) => {
   return isLoaded ? (
     <div id="mapContainer">
       <GoogleMap
-      id="map"
+        id="map"
         mapContainerStyle={containerStyle}
         center={center}
         zoom={18}

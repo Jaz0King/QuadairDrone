@@ -1,12 +1,9 @@
-//import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import MenuAppBar from './components/MenuAppBar.jsx';
 import Banner from './components/Banner.jsx';
 import Clock from './components/Clock.jsx';
 import Location from './components/Location.jsx';
-//import Maps from './components/Maps.jsx';
-
 
 function App() {
   return (

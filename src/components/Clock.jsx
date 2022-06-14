@@ -55,7 +55,7 @@ const Clock = () => {
                 <div id="clock">
                     <div id="minutes">
                         <p>{timer}</p>
-                        <h6 id="sh6">HURRY UP!</h6>
+                        <h6 id="sh7">HURRY UP!</h6>
                     </div>
                 </div>
             </div>
